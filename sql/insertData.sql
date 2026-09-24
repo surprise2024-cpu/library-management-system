@@ -1,3 +1,4 @@
+-- Data to be added to the authors table
 INSERT INTO authors (
     id, 
     name, 
@@ -16,6 +17,7 @@ INSERT INTO authors (
     (9, 'Fyodor Dostoevsky', 'Russian', 1821, 1881),
     (10, 'J.R.R. Tolkien', 'British', 1892, 1973);
 
+-- Data to be added to the books table
 INSERT INTO books (
     id, 
     title,
@@ -35,6 +37,7 @@ INSERT INTO books (
     (9, 'Crime and Punishment', 9, ARRAY['Philosophical Novel'], 1866, TRUE),
     (10, 'The Hobbit', 10, ARRAY['Fantasy'], 1937, TRUE);
 
+-- Data to be added to the patrons table
 INSERT INTO patrons (
     id, 
     name,
