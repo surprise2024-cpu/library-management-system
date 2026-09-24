@@ -27,6 +27,6 @@ CREATE TABLE patrons (
 
     id INT PRIMARY KEY,
     name VARCHAR(150) NOT NULL,
-    email VARCHAR(200) UNIQUE NOY NULL,
+    email VARCHAR(200) UNIQUE NOT NULL,
     borrowed_books INT[] DEFAULT '{}'
 );
