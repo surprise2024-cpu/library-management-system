@@ -1,6 +1,5 @@
-/**/
+-- Author table structure
 CREATE TABLE authors (
-
     id INT PRIMARY KEY,
     name VARCHAR(150) NOT NULL,
     nationality VARCHAR(100),
@@ -8,8 +7,8 @@ CREATE TABLE authors (
     death_year INT
 );
 
+-- books table structure
 CREATE TABLE books (
-
     id INT PRIMARY KEY,
     title VARCHAR(150) NOT NULL,
     author_id INT NOT NULL,
@@ -23,8 +22,8 @@ CREATE TABLE books (
         ON DELETE RESTRICT 
 );
 
+-- patrons table structure
 CREATE TABLE patrons (
-
     id INT PRIMARY KEY,
     name VARCHAR(150) NOT NULL,
     email VARCHAR(200) UNIQUE NOT NULL,
