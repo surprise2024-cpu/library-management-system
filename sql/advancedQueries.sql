@@ -23,7 +23,7 @@ SELECT *
 FROM authors
 WHERE name ILIKE '%George%';
 
--- Incremenet published year 1869 by 1
+-- Increment published year 1869 by 1
 UPDATE books 
 SET published_year = published_year + 1
 WHERE published_year = 1869;

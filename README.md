@@ -111,43 +111,43 @@ git clone https://github.com/surprise2024-cpu/library-management-system.git
 
 ### Sample Data
 
-Authors:
+#### Authors:
 
 ![author samples](/sql/assets/author-sample-data.png)
 
-Books:
+#### Books:
 
 ![book samples](/sql/assets/books-sample-data.png)
 
-Patrons:
+#### Patrons:
 
 ![patrons](/sql/assets/patrons-sample-data.png)
 
 ### Read Query
 
-Getting all books:
+#### Getting all books:
 
 ![all books](/sql/assets/all-books.png)
 
-Getting book by title:
+#### Getting book by title:
 
 ![books by title](/sql/assets/get-book-by-title.png)
 
-Get all books by specific author:
+#### Get all books by specific author:
 
 ![books by author](/sql/assets/get-books-by-author.png)
 
-Get all available books:
+#### Get all available books:
 
 ![avalilable books](/sql/assets/get-all-available-books.png)
 
 ### Update Query
 
-Mark a book as borrowed:
+#### Mark a book as borrowed:
 
 ![updating availability](/sql/assets/update-book-availability.png)
 
-Add a new genre to a book:
+#### Add a new genre to a book:
 
 `Before:`
 
@@ -157,7 +157,7 @@ Add a new genre to a book:
 
 ![adding new genre](/sql/assets/after-adding-genre.png)
 
-Add a borrowed book to a patron:
+#### Add a borrowed book to a patron:
 
 `Before:` 
 
@@ -169,39 +169,72 @@ Add a borrowed book to a patron:
 
 ### Delete Query
 
-Deleting an author before deleting their book(s):
+#### Deleting an author before deleting their book(s):
 
-`Before`
+`Before;`
 
 ![Before deleting](/sql/assets/all-authors.png)
 
-`Processing`
+`Processing:`
 
 ![During deletion](/sql/assets/author-with-book.png)
 
-`After`
+`After;`
 
 ![After deleting](/sql/assets/after-author-deletion.png)
 
-Deleting a book:
+#### Deleting a book:
 
-`Before`
+`Before:`
 
 ![Before book deletion](/sql/assets/all-books.png)
 
-`Processing`
+`Processing:`
 
 ![Before book deletion](/sql/assets/book-deletion.png)
 
-`After`
+`After:`
 
 ![deleting a book](/sql/assets/after-deletion.png)
 
 ### Advanced Queries
 
-![](/sql/assets/all-books.png)
+#### Find books published after 1950:
+
+![books published after 1950](/sql/assets/find-books-by-published-year.png)
+
+#### Find all American authors:
+
+![all American authors](/sql/assets/find-authors-by-nationality.png)
+
+#### Set all books as available:
+
+![all books available](/sql/assets/update-book-availability.png)
+
+#### Find all available books after 1950:
+
+![all available books after 1950](/sql/assets/find-available-books-by-year.png)
+
+#### Find authors whose names contain "George":
+
+![authors whose names contain "George"](/sql/assets/find-author-whose-name-contains-something.png)
+
+#### Increment published year 1869 by 1:
+
+`Before:`
+
+![Before increment](/sql/assets/all-books.png)
+
+`Processing:`
+
+![During increment](/sql/assets/increment-processing.png)
+
+
+`After:`
+
+![After increment](/sql/assets/after-increment.png)
 
 ## Author
 
-Suprise Nkosi
+`Suprise Nkosi`
 
