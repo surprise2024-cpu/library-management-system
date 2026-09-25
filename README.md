@@ -171,7 +171,7 @@ git clone https://github.com/surprise2024-cpu/library-management-system.git
 
 #### Deleting an author before deleting their book(s):
 
-`Before;`
+`Before:`
 
 ![Before deleting](/sql/assets/all-authors.png)
 
@@ -179,7 +179,7 @@ git clone https://github.com/surprise2024-cpu/library-management-system.git
 
 ![During deletion](/sql/assets/author-with-book.png)
 
-`After;`
+`After:`
 
 ![After deleting](/sql/assets/after-author-deletion.png)
 
