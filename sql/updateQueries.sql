@@ -3,7 +3,7 @@ UPDATE books
 SET available = FALSE
 WHERE id = 1;
 
--- Add a new genre to a hook
+-- Add a new genre to a book
 UPDATE books
 SET genres = array_append(genres, 'Classic')
 WHERE id = 1;

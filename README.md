@@ -103,31 +103,103 @@ git clone https://github.com/surprise2024-cpu/library-management-system.git
 
 ### Database Created
 
-![]()
+![Database creation](/sql/assets/database-creation.png)
 
 ### Table Created
 
-![]()
+![Table creation](/sql/assets/table-creation.png)
 
-### Sample Created
+### Sample Data
 
-![]()
+Authors:
 
-### Read Created
+![author samples](/sql/assets/author-sample-data.png)
 
-![]()
+Books:
 
-### Update Created
+![book samples](/sql/assets/books-sample-data.png)
 
-![]()
+Patrons:
 
-### Delete Created
+![patrons](/sql/assets/patrons-sample-data.png)
 
-![]()
+### Read Query
 
-### Advanced Query
+Getting all books:
 
-![]()
+![all books](/sql/assets/all-books.png)
+
+Getting book by title:
+
+![books by title](/sql/assets/get-book-by-title.png)
+
+Get all books by specific author:
+
+![books by author](/sql/assets/get-books-by-author.png)
+
+Get all available books:
+
+![avalilable books](/sql/assets/get-all-available-books.png)
+
+### Update Query
+
+Mark a book as borrowed:
+
+![updating availability](/sql/assets/update-book-availability.png)
+
+Add a new genre to a book:
+
+`Before:`
+
+![adding new genre](/sql/assets/adding-book-genre%20(2).png)
+
+`After:`
+
+![adding new genre](/sql/assets/after-adding-genre.png)
+
+Add a borrowed book to a patron:
+
+`Before:` 
+
+![borrowing a book](/sql/assets/borrowing-book.png)
+
+`After:`
+
+![after borrowing a book](/sql/assets/borrowing-book-after.png)
+
+### Delete Query
+
+Deleting an author before deleting their book(s):
+
+`Before`
+
+![Before deleting](/sql/assets/all-authors.png)
+
+`Processing`
+
+![During deletion](/sql/assets/author-with-book.png)
+
+`After`
+
+![After deleting](/sql/assets/after-author-deletion.png)
+
+Deleting a book:
+
+`Before`
+
+![Before book deletion](/sql/assets/all-books.png)
+
+`Processing`
+
+![Before book deletion](/sql/assets/book-deletion.png)
+
+`After`
+
+![deleting a book](/sql/assets/after-deletion.png)
+
+### Advanced Queries
+
+![](/sql/assets/all-books.png)
 
 ## Author
 

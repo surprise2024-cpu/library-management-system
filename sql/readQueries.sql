@@ -6,7 +6,7 @@ SELECT *
 FROM books
 WHERE title = '1984';
 
--- Get all book by specific author
+-- Get all books by specific author
 SELECT books.*
 FROM books
 JOIN authors
