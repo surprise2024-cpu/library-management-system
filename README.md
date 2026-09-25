@@ -93,8 +93,43 @@ git clone https://github.com/surprise2024-cpu/library-management-system.git
 1. Open pgAdmin.
 2. Connect to your PostgreSQL.
 3. Run `createDatabase.sql`.
+4. Right click `Databases` and refresh.
 4. Connect to `LibraryDB`.
 5. Run `createTables.sql`.
 6. Run `insertData.sql`.
 7. Run the remaining query files as needed.
+
+## Screenshots
+
+### Database Created
+
+![]()
+
+### Table Created
+
+![]()
+
+### Sample Created
+
+![]()
+
+### Read Created
+
+![]()
+
+### Update Created
+
+![]()
+
+### Delete Created
+
+![]()
+
+### Advanced Query
+
+![]()
+
+## Author
+
+Suprise Nkosi
 
